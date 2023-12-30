@@ -151,3 +151,6 @@ upon event < al, Deliver | p, [FINAL, m, Σ] > do
           - 最后，`READY`消息的广播。
         - 因此，每个阶段的消息数是`N(N-1)`，考虑到这些阶段，总的消息数在数量级上是`N^2`。
 
+**Totality 或 Uniform Totality**:
+
+- 这个算法满足**Totality**属性，即如果任何一个正确的进程传递了一条消息，每个正确的进程最终都会传递这条消息。
